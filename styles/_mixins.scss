@@ -1,0 +1,28 @@
+@mixin fluid-text($max: 50, $min: 10) {
+  font-size: clamp(#{$min}px, #{$max / 1280 * 100}vw, #{$max}px);
+}
+
+@mixin reset-link {
+  color: inherit;
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin reset-button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+@mixin square($size) {
+  width: $size;
+  aspect-ratio: 1;
+}
+
+@mixin visually-hidden {
+	position: fixed;
+  transform: scale(0);
+}

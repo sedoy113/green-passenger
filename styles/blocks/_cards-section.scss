@@ -1,0 +1,6 @@
+.cards-section {
+	padding-bottom: var(--section-padding-y);
+	@include mobile {
+		padding-bottom: var(--section-padding-y);
+	}
+}

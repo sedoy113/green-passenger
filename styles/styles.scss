@@ -1,0 +1,15 @@
+// импорт глобальных стилей
+@import
+  'normalize',
+  'fonts',
+  'mixins',
+  'media',
+  'variables',
+  'utils',
+  'globals';
+// импорт блоков
+@import
+	'blocks/page-content',
+  'blocks/grid',
+	'blocks/cards-section',
+	'blocks/product';

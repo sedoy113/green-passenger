@@ -1,0 +1,41 @@
+:root {
+	// цвета
+	--color-accent: #475009;
+  --color-light: #FFFFFF;
+	--bg-color-product-price-link: #502198;
+	--color-shadow:rgba(0, 111, 57, 0.4);
+
+
+	// бордер
+	--border-radius-product: 30px;
+  --border-radius-small: 20px;
+  --border-radius-card-image: 0 130px;
+	--border-radius-big-card: 0 170px;
+	--border-radius-big-card-text: 50px 0;
+	--border-radius-product-price-link: 30px;
+
+	// тени
+  --shadow: 5px 5px 8px 0 var(--color-shadow);
+	--liner-gradient-green:  linear-gradient(90deg, #c1dfc4 0%, #deecdd 100%);
+	// шрифт
+  --font-family-base: 'Montserrat', sans-serif;
+	--font-weight-bold:700;
+	// контейнер
+  --container-width: 1240px;
+  --container-padding-x: 20px;
+	--container-padding-y: 70px;
+	// отступ секций
+  --section-padding-y: 60px;
+	// время анимации
+  --transition-duration: 0.2s;
+
+  @include desktop {
+    --section-padding-y: 50px;
+  }
+
+  @include mobile {
+    --section-padding-y: 20px;
+		--container-padding-y: 20px;
+		--border-radius-product: 20px;
+  }
+}

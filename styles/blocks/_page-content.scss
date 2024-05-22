@@ -1,0 +1,26 @@
+.page-content {
+	&__title {
+		color: #475009;
+		@include fluid-text(50, 20);
+		line-height: 120%;
+		font-weight: var(--font-weight-bold);
+		text-align: center;
+		margin: 0 0 30px;
+		@include mobile {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__text {
+		color: #475009;
+		@include fluid-text(30, 16);
+		line-height: 120%;
+		margin: 0 0 50px;
+		text-align: center;
+		@include mobile {
+			margin-bottom: 25px;
+		}
+	}
+
+
+}
